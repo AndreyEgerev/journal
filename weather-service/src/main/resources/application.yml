@@ -1,0 +1,16 @@
+server:
+  port: 9100
+weather:
+  api:
+    key: 2d6646981c3bc510c4bfef46714af94e
+    url: http://api.openweathermap.org/data/2.5/weather
+    urlcoor: https://api.openweathermap.org/data/2.5/weather
+spring:
+  datasourse:
+    url: jdbc:h2:mem:mydb
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
